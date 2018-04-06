@@ -139,6 +139,7 @@ end</entry>
     </node>
     <node name="router2" type="SIMPLE" subtype="IOSv" location="448,107" ipv4="192.168.0.2" ipv6="2001:db8:b:0:1::3">
         <extensions>
+            <entry key="ansible_group" type="String">all</entry>
             <entry key="config" type="string">! IOS Config generated on 2018-04-04 00:00
 ! by autonetkit_0.23.5
 !
